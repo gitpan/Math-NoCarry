@@ -1,10 +1,11 @@
-# $Id: NoCarry.pm,v 1.6 2004/09/08 08:39:05 comdog Exp $
+# $Id: NoCarry.pm,v 1.7 2004/10/08 20:56:29 comdog Exp $
 package Math::NoCarry;
+use strict;
 
 use base qw(Exporter);
 
 use vars qw($VERSION);
-$VERSION = sprintf "%d.%02d", q$Revision: 1.6 $ =~ m/ (\d+) \. (\d+) /xg;
+$VERSION = sprintf "%d.%02d", q$Revision: 1.7 $ =~ m/ (\d+) \. (\d+) /xg;
 
 =head1 NAME
 
@@ -183,8 +184,6 @@ sub subtract
 		}
 
 	return scalar reverse $string;
-
-	return $o;
 	}
 
 1;
