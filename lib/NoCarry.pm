@@ -1,11 +1,11 @@
-# $Id: NoCarry.pm,v 1.7 2004/10/08 20:56:29 comdog Exp $
+# $Id: NoCarry.pm,v 1.8 2005/03/12 03:53:47 comdog Exp $
 package Math::NoCarry;
 use strict;
 
 use base qw(Exporter);
 
 use vars qw($VERSION);
-$VERSION = sprintf "%d.%02d", q$Revision: 1.7 $ =~ m/ (\d+) \. (\d+) /xg;
+$VERSION = sprintf "%d.%02d", q$Revision: 1.8 $ =~ m/ (\d+) \. (\d+) /xg;
 
 =head1 NAME
 
@@ -149,7 +149,7 @@ sub add
 	return $string;
 	}
 
-=item add( A, B )
+=item subtract( A, B )
 
 Returns the no carry difference of the postive numbers A and B.
 
@@ -222,7 +222,7 @@ brian d foy, C<< <bdfoy@cpan.org> >>
 
 =head1 COPYRIGHT
 
-Copyright 2002-2004, brian d foy, All Rights Reserved.
+Copyright 2002-2005, brian d foy, All Rights Reserved.
 
 You may redistribute this under the same terms as Perl itself.
 
