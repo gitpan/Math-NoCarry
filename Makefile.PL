@@ -1,19 +1,7 @@
-# $Id: Makefile.PL,v 1.2 2004/09/08 08:30:21 comdog Exp $
+# $Id: Makefile.PL,v 1.3 2006/05/18 22:14:56 comdog Exp $
 use ExtUtils::MakeMaker;
 
-eval "use Test::Manifest";
-
-unless( $@ )
-	{
-	sub ExtUtils::MM_Any::test_via_harness
-		{
-		my($self, $perl, $tests) = @_;
-
-		return qq|\t$perl "-MTest::Manifest" | .
-			qq|"-e" "run_t_manifest(\$(TEST_VERBOSE), '\$(INST_LIB)', | .
-			qq|'\$(INST_ARCHLIB)')"\n|;
-		}
-	}
+eval "use Test::Manifest 1.14";
 
 WriteMakefile
 	(
