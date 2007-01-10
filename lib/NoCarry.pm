@@ -1,11 +1,11 @@
-# $Id: NoCarry.pm,v 1.9 2006/05/18 22:14:56 comdog Exp $
+# $Id: NoCarry.pm,v 1.10 2007/01/10 04:33:25 comdog Exp $
 package Math::NoCarry;
 use strict;
 
 use base qw(Exporter);
 
 use vars qw($VERSION);
-$VERSION = sprintf "%d.%02d", q$Revision: 1.9 $ =~ m/ (\d+) \. (\d+) /xg;
+$VERSION = sprintf "%d.%02d", q$Revision: 1.10 $ =~ m/ (\d+) \. (\d+) /xg;
 
 =head1 NAME
 
@@ -220,10 +220,11 @@ members of the project can shepherd this module appropriately.
 
 brian d foy, C<< <bdfoy@cpan.org> >>
 
-=head1 COPYRIGHT
+=head1 COPYRIGHT AND LICENSE
 
-Copyright 2002-2006, brian d foy, All Rights Reserved.
+Copyright (c) 2002-2007 brian d foy.  All rights reserved.
 
-You may redistribute this under the same terms as Perl itself.
+This program is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.
 
 =cut
