@@ -1,4 +1,4 @@
-# $Id: subtract.t,v 1.1 2004/09/08 08:30:22 comdog Exp $
+# $Id: subtract.t 1467 2004-09-08 08:30:22Z comdog $
 
 BEGIN { print "1..4\n"; }
 

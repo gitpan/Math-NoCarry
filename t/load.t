@@ -1,4 +1,4 @@
-# $Id: load.t,v 1.1 2004/09/08 08:30:22 comdog Exp $
+# $Id: load.t 1467 2004-09-08 08:30:22Z comdog $
 BEGIN {
 	@classes = qw(Math::NoCarry);
 	}
